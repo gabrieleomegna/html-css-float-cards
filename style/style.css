@@ -4,12 +4,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* Google fonts */
 body {
     font-family: 'Fredoka', sans-serif;
 }
 /* layout main header */
 main {
-    width: 65%;
+    width: 75%;
     margin: auto;
 }
 main > header {
@@ -19,4 +20,20 @@ main > header {
 #main-title {
     padding-bottom: 2rem;
     color: rgb(211, 2, 117);
+}
+
+/* layout float elements */
+.float-container{
+    /* height: 50%; */
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.float-element{
+    float: left;
+    height: 150px;
+    width: calc(100% / 3);
+    border: 1px solid red;
 }
