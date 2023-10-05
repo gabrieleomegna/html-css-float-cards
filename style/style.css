@@ -1,0 +1,22 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+/* layout main header */
+main {
+    width: 65%;
+    margin: auto;
+}
+main > header {
+    text-align: center;
+    margin: 3rem 0;
+}
+#main-title {
+    padding-bottom: 2rem;
+    color: rgb(211, 2, 117);
+}
