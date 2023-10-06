@@ -23,9 +23,6 @@ main > header {
 }
 
 /* layout float elements */
-.float-container{
-    /* height: 50%; */
-}
 .clearfix::after{
     content: "";
     display: block;
@@ -43,8 +40,8 @@ main > header {
     float: left;
 }
 .profile-description {
-    padding: 2rem 0rem 2rem 2rem;
-    line-height: 1.5rem;
+    padding: 1rem 0rem 1rem 1.3rem;
+    line-height: 2rem;
     color: white;
 }
 .email-color {
@@ -55,4 +52,7 @@ main > header {
     width: 100%;
     background-color: black;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.profile-description > h3 {
+    text-transform: uppercase;
 }
